@@ -1,0 +1,517 @@
+* {
+
+    margin: 0 ;
+    text-decoration: none;
+
+
+}
+
+main{
+    background-color: #8a8888;
+}
+
+.navegacion{
+    width: 180vh;
+    
+}
+
+.mainIndex {
+    width: 100vh;
+    height: 100vh;
+
+}
+
+
+.fondoIndex1 {
+
+    width: 120vh;
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, #d3ecd4, #d5e0b9, #ded1a1, #eabf92, #f5ab8e, #fca9a1, #fdaab5, #f8adc9, #f4c3e1, #f2d9f1, #f5edfb, #ffffff);
+    
+}
+
+.fondoIndex1::after {
+    content: "TECHMACH";
+    font-size: 5.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    margin-top: 210px;
+    margin-right: 590px;
+    text-shadow: 12px 12px 12px rgb(87, 87, 87);
+    animation-name: TechMach;
+    
+}
+
+.fondoIndex1:after:hover{
+    font-size: 6.5rem;
+    margin-right: 640px ;
+    margin-top:190px ;
+
+}
+
+
+
+.fondoIndex2 {
+    background-image: url(../assets/Images/pexels-mae-gregorio-3556906.jpg);
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    margin-left: 993px;
+    z-index: 10;
+    position: relative;
+    animation-name: animacionImagenFondo;
+    animation-duration: 2s;
+    transition: .5 ease;
+    filter: contrast(120%);
+    flex-wrap: wrap;
+}
+
+
+.tituloIndex {
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+    font-size: 5.8rem;
+    color: black;
+    z-index: 10;
+}
+
+
+.InfoMark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    color: #777777;
+    width: 196vh;
+    height: 90px;
+}
+
+.tituloInfo {
+    font-size: 2.1rem;
+    color: white;
+    text-decoration-line: underline;
+    margin-bottom: 23px;
+    margin-top: 5px;
+}
+
+.divInfoo {
+    background-color: rgb(71, 71, 71);
+    width: 196vh;
+    height: 480px;
+
+}
+
+.textoMark {
+    font-size: 1.58rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #000000;
+}
+
+.divInfoImag1 {
+    background-image: linear-gradient(to right top, #e76c71, #ea7099, #de7dc0, #c48fe1, #9da2f8);
+    ;
+    width: 280px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 290px;
+    margin-bottom: 10px;
+    transition: height 1.5s , width 1.5s, transform 3s;
+   
+}
+.divInfoImag1:hover{
+    margin-bottom:100px;
+    width: 370px;
+    height: 230px;
+}
+
+.divDivImage3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(71, 71, 71);
+}
+
+.divInfoImag3 {
+    background-image: linear-gradient(to right top, #e76c71, #ea7099, #de7dc0, #c48fe1, #9da2f8);
+    ;
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 1150px;
+    transition: height 1.5s , width 1.5s, transform 3s;
+}
+.divInfoImag3:hover{
+    width: 370px;
+    height: 230px;
+}
+
+
+.imagenInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 94%;
+    display: block;
+
+
+}
+
+.divInfoImageHorizontal {
+    background-image: linear-gradient(to right top, #e76c71, #ea7099, #de7dc0, #c48fe1, #9da2f8);
+    ;
+    width: 290px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 1170px;
+    animation-name: DivHorizontal;
+    transition: height 1.5s , width 1.5s, transform 3s;
+}
+
+.divInfoImageHorizontal:hover{
+    width: 350px;
+    height: 150px;
+    
+}
+
+.imagenInfoHorizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 90%;
+    display: block;
+
+}
+
+.divTituloNos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #e76c71, #ea7099, #de7dc0, #c48fe1, #9da2f8);
+    ;
+    height: 20vh;
+
+}
+
+.tituloNosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 12px 12px 12px rgb(87, 87, 87);
+    transition: font-size 2.1s, text-decoration 4.2s, text-shadow 3.3s;
+  
+}
+
+
+.tituloNosotros:hover{
+    font-size: 4.9rem;
+    text-decoration:underline 2px black;
+    text-shadow: 24px 24px 24px rgb(75,75,75);
+    
+    
+}
+
+
+.h2Acerca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-decoration: underline;
+    font-size: 2.8rem;
+    
+
+}
+
+.SectionImagenesAcerca {
+    display: flex;
+    justify-content: space-between; /* Distribuye las imágenes en paralelo */
+    align-items: center;
+    width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+    height: 500px; /* Altura de la sección */
+    padding: 20px; /* Ajusta el espacio interior según tus necesidades */
+    box-sizing: border-box; /* Incluye el padding en el ancho y alto */
+    
+  }
+ 
+ 
+  .ImagenesAcerca {
+    width: 25%;
+    flex: 1; /* Hace que las imágenes se expandan para llenar el espacio disponible */
+    padding: 25px; /* Espaciado interior de cada imagen */
+    text-align: center; /* Centra el contenido horizontalmente si es necesario */
+    
+    
+  }
+  
+  
+  .ImagenesAcerca img {
+   
+    max-width: 100%; /* Ajusta el tamaño máximo de las imágenes al contenedor */
+    height: auto; /* Mantiene la relación de aspecto de las imágenes */
+
+  }
+
+  .divBiografia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+    margin-bottom: 0 ;
+    margin-top: 55px;
+    
+  }
+
+  .BiografiaTech{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.59rem;
+    padding: 20px;
+  }
+  .imagenesInstalaciones{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    margin-top: 90px ;
+    width: 100%;
+    height: 500px;
+    gap: 80px;
+  }
+  
+  .ImagenesInst{
+    width: 360px;
+    height: 280px;
+    object-fit: cover;
+    opacity: 0.65;
+    transition: width 2s, height 2s, opacity 1s;
+  }
+
+  .ImagenesInst:hover{
+    width: 500px;
+    height: 400px;
+    opacity: 1;
+  }
+  .divEquipoImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px ;
+    margin-bottom: 30px;
+  }
+  .ImgEquipo{
+    
+    display: flex;
+    align-items: center;
+    width: 420px;
+    height: 230px;
+    opacity: 0.65;
+    transition: height 2s, width 2s, opacity 1s;
+  }
+  .ImgEquipo:hover{
+    width: 500px;
+    height: 285px;
+    opacity: 1;
+  }
+  .h3Equipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .equipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-left: 200px ;
+    margin-right: 200px;
+  }
+  .sectionServicios{
+    background-image: linear-gradient(to right top, #e76c71, #ea7099, #de7dc0, #c48fe1, #9da2f8);
+    ;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .h2Servicios{
+    font-size: 3.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 0px black;
+    transition: text-shadow 2.2s, font-size 2.5s ;
+    
+  }
+
+  .h2Servicios:hover{
+    font-size: 4rem;
+    text-shadow: 12px 12px 12px black;
+  }
+  .TextoServicios{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.3rem;
+    
+  }
+  .ServiciosImagenes{
+    transition: width 2s,height 2s,opacity 1s;
+    opacity: 0.45;
+  }
+  .ServiciosImagenes:hover{
+    width: 300px;
+    height: 200px;
+    opacity: 1;
+  }
+  .divTitleEquip{
+    background-image: linear-gradient(to right top, #e76c71, #ea7099, #de7dc0, #c48fe1, #9da2f8);
+    ;
+    width: 100%;
+    height: 70px;
+
+
+  }
+
+  footer {
+    background-color: #8a8888;
+  }
+
+
+  .mainDivisas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background-image:linear-gradient(to bottom right, #9664bb 0%, #6f37a4 20%, #95289b 40%, #fe7098 60%, #f973d2 80%) ;
+
+      background-size: 200% 200%;
+      animation: movimiento 5s linear infinite alternate;
+
+  } 
+
+  @keyframes movimiento{
+    from {
+      background-position: 0 0;
+
+    }
+    to{
+      background-position: 100% 100%;
+    }
+  }
+
+  .divInterfazDivisas{
+
+    position: absolute;
+    width: 65%;
+    height: 10vh;
+    background-color: rgb(165, 165, 165);
+    border: solid 2.8px black;
+    border-radius: 130px;
+    margin-bottom: 750px;
+  
+    
+  }
+  
+  .titleDivisas{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 3.1rem ;
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+
+  .divDivisas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 500px;
+    border: solid 4.8px black;
+    border-style:dashed solid;
+    border-radius: 34px;
+    background-color: white;
+  }
+  
+
+  .btn{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-color: solid 3px black; ;
+   
+}
+
+.moneda{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.moneda select{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+   
+}
+
+.moneda input {
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+   
+}
+
+.taza-cambio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cambio{
+    color: var(--primary-color);
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}
+
+@media (max-width:600px) {
+    .moneda input{
+        width: 200px;
+    }
+  } 
